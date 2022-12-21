@@ -1,0 +1,828 @@
+﻿Log file open, 11/22/22 13:17:29
+LogInit: Display: Running engine for game: CollectAThon
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 16.197815
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin HDRIBackdrop
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz, GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:1]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.11.22-18.17.34:909][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.11.22-18.17.34:909][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.11.22-18.17.34:910][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Engine.ini]
+[2022.11.22-18.17.34:910][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Engine.ini]
+[2022.11.22-18.17.34:911][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Engine.ini]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Engine.ini]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.11.22-18.17.34:911][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Engine.ini]
+[2022.11.22-18.17.34:911][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Engine.ini]
+[2022.11.22-18.17.34:943][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.11.22-18.17.34:943][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.11.22-18.17.34:944][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.11.22-18.17.34:950][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.22-18.17.34:950][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.11.22-18.17.34:966][  0]LogHAL: Display: Platform has ~ 16 GB [17097224192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.11.22-18.17.34:966][  0]LogInit: Going up to parent DeviceProfile []
+[2022.11.22-18.17.34:967][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.11.22-18.17.34:967][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Scalability.ini]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.11.22-18.17.34:968][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.11.22-18.17.34:973][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.11.22-18.17.34:973][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.11.22-18.17.34:973][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.11.22-18.17.34:973][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Config/Windows/Engine.ini]
+[2022.11.22-18.17.34:981][  0]LogInit: Computer: DESKTOP-4UF2QLF
+[2022.11.22-18.17.34:981][  0]LogInit: User: Caleb
+[2022.11.22-18.17.34:981][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.11.22-18.17.34:981][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.11.22-18.17.34:981][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.11.22-18.17.34:981][  0]LogMemory: Platform Memory Stats for Windows
+[2022.11.22-18.17.34:981][  0]LogMemory: Process Physical Memory: 120.13 MB used, 122.02 MB peak
+[2022.11.22-18.17.34:981][  0]LogMemory: Process Virtual Memory: 109.62 MB used, 109.62 MB peak
+[2022.11.22-18.17.34:981][  0]LogMemory: Physical Memory: 5232.82 MB used,  11072.36 MB free, 16305.18 MB total
+[2022.11.22-18.17.34:981][  0]LogMemory: Virtual Memory: 5181.07 MB used,  134212544.00 MB free, 134217728.00 MB total
+[2022.11.22-18.17.34:989][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.11.22-18.17.35:828][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.11.22-18.17.35:846][  0]LogInit: Using OS detected language (en-US).
+[2022.11.22-18.17.35:846][  0]LogInit: Using OS detected locale (en-US).
+[2022.11.22-18.17.35:931][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.11.22-18.17.36:702][  0]LogInit: Setting process to per monitor DPI aware
+[2022.11.22-18.17.37:116][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.11.22-18.17.37:116][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.11.22-18.17.40:423][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.22-18.17.40:423][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.11.22-18.17.40:423][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.11.22-18.17.40:423][  0]LogD3D11RHI: D3D11 adapters:
+[2022.11.22-18.17.40:513][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2022.11.22-18.17.40:513][  0]LogD3D11RHI:       8171/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2022.11.22-18.17.40:516][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.11.22-18.17.40:516][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.11.22-18.17.40:516][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.11.22-18.17.40:525][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.11.22-18.17.40:525][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2022.11.22-18.17.40:526][  0]LogWindows: EnumDisplayDevices:
+[2022.11.22-18.17.40:527][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:1 D:1)
+[2022.11.22-18.17.40:527][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:0 D:1)
+[2022.11.22-18.17.40:527][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.11.22-18.17.40:527][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.11.22-18.17.40:527][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.11.22-18.17.40:527][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.11.22-18.17.40:529][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.11.22-18.17.40:529][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2022.11.22-18.17.40:529][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2022.11.22-18.17.40:529][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 22.1.2 (internal:30.0.14023.3004, unified:30.0.14023.3004)
+[2022.11.22-18.17.40:529][  0]LogD3D11RHI:      Driver Date: 1-18-2022
+[2022.11.22-18.17.40:529][  0]LogRHI: Texture pool is 5182 MB (70% of 7403 MB)
+[2022.11.22-18.17.40:658][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.11.22-18.17.40:659][  0]LogD3D11RHI: Async texture creation enabled
+[2022.11.22-18.17.40:659][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.11.22-18.17.40:985][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2022.11.22-18.17.42:238][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.11.22-18.17.42:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.11.22-18.17.42:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.11.22-18.17.42:436][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.11.22-18.17.42:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.11.22-18.17.42:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.11.22-18.17.42:559][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.11.22-18.17.42:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.11.22-18.17.42:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.11.22-18.17.42:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.11.22-18.17.42:709][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.11.22-18.17.42:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.11.22-18.17.42:769][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.11.22-18.17.42:810][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.11.22-18.17.42:810][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.11.22-18.17.42:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.11.22-18.17.42:921][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.11.22-18.17.42:953][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.11.22-18.17.42:983][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.11.22-18.17.42:983][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.11.22-18.17.43:194][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.11.22-18.17.43:972][  0]LogShaderCompilers: Guid format shader working directory is -50 characters bigger than the processId version (../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Intermediate/Shaders/WorkingDirectory/16276/).
+[2022.11.22-18.17.43:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caleb/AppData/Local/Temp/UnrealShaderWorkingDir/1F8FD7514700B5F5C38EB5AFF8DFBFCF/'.
+[2022.11.22-18.17.43:981][  0]LogXGEController: Cleaning working directory: C:/Users/Caleb/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.11.22-18.17.43:981][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.11.22-18.17.43:981][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.11.22-18.17.43:981][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.11.22-18.17.48:316][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.11.22-18.17.48:530][  0]LogDerivedDataCache: Loaded boot cache 0.21s 79MB C:/Users/Caleb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.11.22-18.17.48:530][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Caleb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.11.22-18.17.48:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.11.22-18.17.48:530][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.11.22-18.17.48:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.22-18.17.48:530][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.11.22-18.17.48:633][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.11.22-18.17.48:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.11.22-18.17.48:633][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.11.22-18.17.48:636][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caleb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.11.22-18.17.48:636][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.11.22-18.17.48:636][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.11.22-18.17.48:766][  0]LogSlate: Using FreeType 2.10.0
+[2022.11.22-18.17.48:872][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.11.22-18.17.49:530][  0]LogAssetRegistry: FAssetRegistry took 0.0064 seconds to start up
+[2022.11.22-18.17.54:048][  0]LogInit: Selected Device Profile: [Windows]
+[2022.11.22-18.17.55:878][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.11.22-18.17.55:878][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.11.22-18.17.55:878][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.11.22-18.17.55:878][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.11.22-18.17.55:878][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.11.22-18.17.56:258][  0]LogNetVersion: CollectAThon 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 184025580)
+[2022.11.22-18.18.03:353][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D18E172980), frame # 0
+[2022.11.22-18.18.03:353][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D190C7BEC0), frame # 0
+[2022.11.22-18.18.03:362][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D18E075C00), frame # 0
+[2022.11.22-18.18.03:739][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.070316 seconds
+[2022.11.22-18.18.03:757][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.11.22-18.18.03:757][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.11.22-18.18.03:757][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.11.22-18.18.09:631][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.11.22-18.18.09:684][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.11.22-18.18.10:309][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2022.11.22-18.18.10:325][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2022.11.22-18.18.10:326][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2022.11.22-18.18.10:783][  0]SourceControl: Source control is disabled
+[2022.11.22-18.18.10:783][  0]SourceControl: Source control is disabled
+[2022.11.22-18.18.10:920][  0]SourceControl: Source control is disabled
+[2022.11.22-18.18.10:961][  0]SourceControl: Source control is disabled
+[2022.11.22-18.18.11:020][  0]SourceControl: Source control is disabled
+[2022.11.22-18.18.13:801][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.11.22-18.18.14:017][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.22-18.18.14:017][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.11.22-18.18.14:478][  0]LogOcInput: OculusInput pre-init called
+[2022.11.22-18.18.16:044][  0]LogEngine: Initializing Engine...
+[2022.11.22-18.18.16:057][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.11.22-18.18.16:057][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.11.22-18.18.16:104][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.018 s
+[2022.11.22-18.18.16:663][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.11.22-18.18.17:028][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.11.22-18.18.17:029][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D19AADE600), frame # 0
+[2022.11.22-18.18.17:029][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D19AB3C7C0), frame # 0
+[2022.11.22-18.18.17:201][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.22-18.18.17:201][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.22-18.18.17:201][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.22-18.18.17:201][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.22-18.18.17:201][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.22-18.18.17:201][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.11.22-18.18.17:201][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.22-18.18.17:201][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.22-18.18.17:211][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.11.22-18.18.17:211][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.11.22-18.18.17:329][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.11.22-18.18.17:329][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.11.22-18.18.17:382][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.11.22-18.18.17:406][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.22-18.18.17:449][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.22-18.18.17:449][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.22-18.18.17:463][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.11.22-18.18.17:464][  0]LogInit: FAudioDevice initialized.
+[2022.11.22-18.18.17:468][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.11.22-18.18.17:550][  0]LogDerivedDataCache: Saved boot cache 0.08s 79MB C:/Users/Caleb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.11.22-18.18.17:550][  0]LogInit: Texture streaming: Enabled
+[2022.11.22-18.18.17:773][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.11.22-18.18.17:773][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={4CE14916-428D-AD9A-31EE-CEAB0E131DF6}
+[2022.11.22-18.18.17:773][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.11.22-18.18.17:783][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.11.22-18.18.18:049][  0]LogInit: Transaction tracking system initialized
+[2022.11.22-18.18.18:406][  0]BlueprintLog: New page: Editor Load
+[2022.11.22-18.18.19:574][  0]LocalizationService: Localization service is disabled
+[2022.11.22-18.18.22:561][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Content/' took 0.01s
+[2022.11.22-18.18.22:561][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.11.22-18.18.22:561][  0]LogCook: Display: Mobile HDR setting 1
+[2022.11.22-18.18.28:011][  0]SourceControl: Source control is disabled
+[2022.11.22-18.18.28:019][  0]LogUnrealEdMisc: Loading editor; pre map load, took 100.442
+[2022.11.22-18.18.28:026][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Content/ThirdPersonBP/Maps/Bedroom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.11.22-18.18.28:084][  0]LightingResults: New page: Lighting Build
+[2022.11.22-18.18.28:132][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.11.22-18.18.28:189][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.22-18.18.28:197][  0]MapCheck: New page: Map Check
+[2022.11.22-18.18.28:197][  0]LightingResults: New page: Lighting Build
+[2022.11.22-18.18.28:437][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D19AADE600), frame # 0
+[2022.11.22-18.18.28:437][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D19AB3C7C0), frame # 0
+[2022.11.22-18.18.28:438][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.11.22-18.18.53:980][  0]LogAIModule: Creating AISystem for world Bedroom
+[2022.11.22-18.18.53:980][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D1BA4E1000), frame # 0
+[2022.11.22-18.18.53:980][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D1BA4CBB00), frame # 0
+[2022.11.22-18.18.54:589][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.11.22-18.18.54:701][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2022.11.22-18.18.54:701][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.11.22-18.18.54:712][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 10.856ms to complete.
+[2022.11.22-18.18.54:712][  0]LogFileHelpers: Loading map 'Bedroom' took 26.686
+[2022.11.22-18.18.55:415][  0]LogUnrealEdMisc: Total Editor Startup Time, took 127.837
+[2022.11.22-18.18.55:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.22-18.18.55:914][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.22-18.18.55:922][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.22-18.18.55:930][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.22-18.18.56:067][  0]LogCollectionManager: Loaded 0 collections in 0.000929 seconds
+[2022.11.22-18.18.56:217][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Collections/' took 0.00s
+[2022.11.22-18.18.56:217][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Content/Developers/Caleb/Collections/' took 0.00s
+[2022.11.22-18.18.56:217][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Content/Collections/' took 0.00s
+[2022.11.22-18.18.56:217][  0]LogContentBrowser: Native class hierarchy populated in 0.0302 seconds. Added 3435 classes and 824 folders.
+[2022.11.22-18.18.56:306][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.22-18.18.57:541][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.22-18.18.57:658][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2022.11.22-18.18.58:036][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2022.11.22-18.19.00:380][  0]LogSlate: Took 0.013894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.11.22-18.19.00:419][  0]LogSlate: Took 0.017629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.11.22-18.19.00:517][  0]LogSlate: Took 0.070399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.11.22-18.19.00:939][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2022.11.22-18.19.01:194][  0]LogRenderer: Reallocating scene render targets to support 1008x340 Format 10 NumSamples 1 (Frame:1).
+[2022.11.22-18.19.01:584][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2022.11.22-18.19.01:586][  0]LogLoad: (Engine Initialization) Total time: 134.01 seconds
+[2022.11.22-18.19.01:586][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.11.22-18.19.01:848][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.11.22-18.19.02:090][  1]LogAssetRegistry: Asset discovery search completed in 72.5614 seconds
+[2022.11.22-18.19.02:097][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.11.22-18.19.03:106][  4]LogSlate: Took 0.019480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.22-18.19.25:038][ 78]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.11.22-18.19.25:892][ 78]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2022.11.22-18.19.27:363][ 78]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/Pullables/Pullable.Pullable
+[2022.11.22-18.19.27:783][ 78]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BP_ThrowingInterface.BP_ThrowingInterface
+[2022.11.22-18.19.36:142][267]LogSlate: Took 0.027707 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.11.22-18.19.36:721][268]LogSlate: Took 0.005716 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.11.22-18.21.03:118][432]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/CollectAThon.CPP_WIPICharacter
+[2022.11.22-18.29.02:083][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.11.22-18.29.02:088][748]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Bedroom' took 0.082
+[2022.11.22-18.29.02:111][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2022.11.22-18.29.02:172][748]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2022.11.22-18.29.02:172][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2022.11.22-18.29.02:956][748]LogSavePackage: Moving '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/ThirdPersonCharacter_Auto1A000EF944FFEF587A19815B8678670D3.tmp' to '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2022.11.22-18.29.02:991][748]LogFileHelpers: Auto-saving content packages took 0.903
+[2022.11.22-18.38.08:806][493]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.11.22-18.38.11:832][685]LogSlate: Window 'Content Browser 2' being destroyed
+[2022.11.22-18.38.54:032][953]LogSlate: Window 'Pick Curve Class' being destroyed
+[2022.11.22-18.39.05:932][197]LogAssetEditorSubsystem: Opening Asset editor for CurveFloat /Game/ThirdPersonBP/Blueprints/SplineMeshReelInCurve.SplineMeshReelInCurve
+[2022.11.22-18.41.10:320][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2022.11.22-18.41.10:321][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Bedroom' took 0.131
+[2022.11.22-18.41.10:322][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/SplineMeshReelInCurve] ([1] browsable assets)...
+[2022.11.22-18.41.10:322][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/SplineMeshReelInCurve]
+[2022.11.22-18.41.10:326][679]LogSavePackage: Moving '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/SplineMeshReelInCurve_Auto2AE5E85414FC45BD5B5CA7E9CAAE8BA86.tmp' to '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/SplineMeshReelInCurve_Auto2.uasset'
+[2022.11.22-18.41.10:327][679]LogFileHelpers: Auto-saving content packages took 0.006
+[2022.11.22-18.45.26:245][245]LogSlate: Window 'SplineMeshReelInCurve' being destroyed
+[2022.11.22-18.51.11:028][905]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2022.11.22-18.51.11:033][905]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Bedroom' took 0.142
+[2022.11.22-18.51.11:035][905]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2022.11.22-18.51.11:035][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2022.11.22-18.51.11:419][905]LogSavePackage: Moving '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/ThirdPersonCharacter_Auto3CF0267F24F0CC079D91C80B763C7E483.tmp' to '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2022.11.22-18.51.11:421][905]LogFileHelpers: Auto-saving content packages took 0.387
+[2022.11.22-19.01.11:624][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.11.22-19.01.11:628][ 50]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Bedroom' took 0.059
+[2022.11.22-19.01.11:629][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2022.11.22-19.01.11:629][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2022.11.22-19.01.12:016][ 50]LogSavePackage: Moving '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/ThirdPersonCharacter_Auto4470F4A2F4C9646D102E900BE2E1BB3F3.tmp' to '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2022.11.22-19.01.12:018][ 50]LogFileHelpers: Auto-saving content packages took 0.390
+[2022.11.22-19.21.14:096][996]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.11.22-19.28.01:125][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.11.22-19.28.02:718][224]LogSlate: Window 'Save Content' being destroyed
+[2022.11.22-19.28.02:806][224]LogSavePackage: Moving '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/SplineMeshReelInCurveFC6885684A96E047B6FB56A205D92796.tmp' to '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Content/ThirdPersonBP/Blueprints/SplineMeshReelInCurve.uasset'
+[2022.11.22-19.28.03:188][224]LogSavePackage: Moving '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Saved/ThirdPersonCharacter8CABBB6C4DDB77FF454718977FAF21AB.tmp' to '../../../../../../Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.11.22-19.28.03:262][224]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.22-19.28.03:262][224]LogContentValidation: Display: Validating CurveFloat /Game/ThirdPersonBP/Blueprints/SplineMeshReelInCurve.SplineMeshReelInCurve
+[2022.11.22-19.28.03:262][224]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.11.22-19.28.14:069][287]Candidate modules for hot reload:
+[2022.11.22-19.28.14:069][287]  CollectAThon
+[2022.11.22-19.28.14:069][287]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CollectAThon,1923 CollectAThonEditor Win64 Development -Project="D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/CollectAThon.uproject" "D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/CollectAThon.uproject"  -IgnoreJunk]
+[2022.11.22-19.28.14:074][287]Warning: Starting HotReload took  0.1s.
+[2022.11.22-19.28.14:402][290]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2022.11.22-19.31.34:653][234]CompilerResultsLog: New page: Compilation - Nov 22, 2022, 9:31:34 AM
+[2022.11.22-19.31.34:658][234]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project).
+[2022.11.22-19.31.34:659][234]CompilerResultsLog: Parsing headers for CollectAThonEditor
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\CollectAThon.uproject" "D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\CollectAThonEditor\Development\CollectAThonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Caleb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.11.22-19.31.34:659][234]CompilerResultsLog: Reflection code generated for CollectAThonEditor in 49.5696938 seconds
+[2022.11.22-19.31.34:659][234]CompilerResultsLog: Building CollectAThonEditor...
+[2022.11.22-19.31.34:659][234]CompilerResultsLog: Using Visual Studio 2019 14.29.30145 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.22-19.31.34:659][234]CompilerResultsLog: Building 6 actions with 4 processes...
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:   [1/6] CollectAThon.init.gen.cpp
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:   [2/6] CPP_WIPICharacter.gen.cpp
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:   [3/6] CPP_WIPICharacter.cpp
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:   [4/6] UE4Editor-CollectAThon-1923.lib
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:      Creating library D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-1923.lib and object D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-1923.exp
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:   [5/6] UE4Editor-CollectAThon-1923.dll
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:      Creating library D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-1923.suppressed.lib and object D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-1923.suppressed.exp
+[2022.11.22-19.31.34:659][234]CompilerResultsLog:   [6/6] CollectAThonEditor.target
+[2022.11.22-19.31.34:659][234]CompilerResultsLog: Total time in Parallel executor: 148.75 seconds
+[2022.11.22-19.31.34:659][234]CompilerResultsLog: Total execution time: 200.36 seconds
+[2022.11.22-19.31.34:659][234]LogMainFrame: MainFrame: Module compiling took 200.631 seconds
+[2022.11.22-19.31.34:875][234]LogClass: Could not find existing class CPP_WIPICharacter in package /Script/CollectAThon for HotReload, assuming new class
+[2022.11.22-19.31.34:875][234]LogClass: Function ChangePOVHideMesh is new.
+[2022.11.22-19.31.34:875][234]LogClass: Function ChangePOVOnFinished is new.
+[2022.11.22-19.31.34:875][234]LogClass: Function ChangePOVUpdate is new.
+[2022.11.22-19.31.34:875][234]LogClass: Function GrappleMeshOnFinished is new.
+[2022.11.22-19.31.34:875][234]LogClass: Function GrappleMeshUpdate is new.
+[2022.11.22-19.31.34:875][234]LogClass: Function SwapItemsMeshSwap is new.
+[2022.11.22-19.31.34:875][234]LogClass: Function SwapItemsUpdate is new.
+[2022.11.22-19.31.34:876][234]LogClass: Function VerticalVelocityUpdate is new.
+[2022.11.22-19.31.34:876][234]LogClass: Function YeetHeldYeetable is new.
+[2022.11.22-19.31.35:266][234]LogHotReload: Re-instancing CPP_WIPICharacter after hot-reload.
+[2022.11.22-19.31.35:626][234]LogContentBrowser: Native class hierarchy updated for 'CollectAThon' in 0.0321 seconds. Added 8 classes and 3 folders.
+[2022.11.22-19.31.35:632][234]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2022.11.22-19.31.37:153][234]LogContentBrowser: Native class hierarchy populated in 0.0693 seconds. Added 3437 classes and 827 folders.
+[2022.11.22-19.31.37:226][234]Display: HotReload took 203.3s.
+[2022.11.22-19.31.49:071][465]Candidate modules for hot reload:
+[2022.11.22-19.31.49:071][465]  CollectAThon
+[2022.11.22-19.31.49:071][465]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CollectAThon,9600 CollectAThonEditor Win64 Development -Project="D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/CollectAThon.uproject" "D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/CollectAThon.uproject"  -IgnoreJunk]
+[2022.11.22-19.31.49:075][465]Warning: Starting HotReload took  0.1s.
+[2022.11.22-19.31.52:427][556]CompilerResultsLog: New page: Compilation - Nov 22, 2022, 9:31:52 AM
+[2022.11.22-19.31.52:427][556]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project).
+[2022.11.22-19.31.52:427][556]CompilerResultsLog: Building CollectAThonEditor...
+[2022.11.22-19.31.52:427][556]CompilerResultsLog: Using Visual Studio 2019 14.29.30145 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.22-19.31.52:427][556]CompilerResultsLog: Building 3 actions with 4 processes...
+[2022.11.22-19.31.52:427][556]CompilerResultsLog:   [1/3] UE4Editor-CollectAThon-9600.lib
+[2022.11.22-19.31.52:427][556]CompilerResultsLog:      Creating library D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-9600.lib and object D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-9600.exp
+[2022.11.22-19.31.52:427][556]CompilerResultsLog:   [2/3] UE4Editor-CollectAThon-9600.dll
+[2022.11.22-19.31.52:427][556]CompilerResultsLog:      Creating library D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-9600.suppressed.lib and object D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-9600.suppressed.exp
+[2022.11.22-19.31.52:427][556]CompilerResultsLog:   [3/3] CollectAThonEditor.target
+[2022.11.22-19.31.52:427][556]CompilerResultsLog: Total time in Parallel executor: 1.83 seconds
+[2022.11.22-19.31.52:427][556]CompilerResultsLog: Total execution time: 3.23 seconds
+[2022.11.22-19.31.52:427][556]LogMainFrame: MainFrame: Module compiling took 3.364 seconds
+[2022.11.22-19.31.52:501][556]LogContentBrowser: Native class hierarchy updated for 'CollectAThon' in 0.0021 seconds. Added 8 classes and 3 folders.
+[2022.11.22-19.31.52:507][556]Display: HotReload successful (33 functions remapped  0 scriptstructs remapped)
+[2022.11.22-19.31.52:639][556]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 3437 classes and 827 folders.
+[2022.11.22-19.31.52:648][556]Display: HotReload took  3.6s.
+[2022.11.22-20.16.36:245][615]Candidate modules for hot reload:
+[2022.11.22-20.16.36:245][615]  CollectAThon
+[2022.11.22-20.16.36:245][615]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CollectAThon,7810 CollectAThonEditor Win64 Development -Project="D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/CollectAThon.uproject" "D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/CollectAThon.uproject"  -IgnoreJunk]
+[2022.11.22-20.16.36:251][615]Warning: Starting HotReload took  0.0s.
+[2022.11.22-20.17.10:443][383]CompilerResultsLog: New page: Compilation - Nov 22, 2022, 10:17:10 AM
+[2022.11.22-20.17.10:443][383]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project).
+[2022.11.22-20.17.10:443][383]CompilerResultsLog: Parsing headers for CollectAThonEditor
+[2022.11.22-20.17.10:443][383]CompilerResultsLog:   Running UnrealHeaderTool "D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\CollectAThon.uproject" "D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\CollectAThonEditor\Development\CollectAThonEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Caleb\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.11.22-20.17.10:514][383]CompilerResultsLog: Reflection code generated for CollectAThonEditor in 10.9297703 seconds
+[2022.11.22-20.17.10:514][383]CompilerResultsLog: Building CollectAThonEditor...
+[2022.11.22-20.17.10:514][383]CompilerResultsLog: Using Visual Studio 2019 14.29.30145 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.22-20.17.10:514][383]CompilerResultsLog: Building 6 actions with 4 processes...
+[2022.11.22-20.17.10:514][383]CompilerResultsLog:   [1/6] CollectAThon.init.gen.cpp
+[2022.11.22-20.17.10:514][383]CompilerResultsLog:   [2/6] CPP_WIPICharacter.gen.cpp
+[2022.11.22-20.17.10:514][383]CompilerResultsLog:   [3/6] CPP_WIPICharacter.cpp
+[2022.11.22-20.17.10:514][383]CompilerResultsLog:   [4/6] UE4Editor-CollectAThon-7810.lib
+[2022.11.22-20.17.10:514][383]CompilerResultsLog:      Creating library D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-7810.lib and object D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-7810.exp
+[2022.11.22-20.17.10:514][383]CompilerResultsLog:   [5/6] UE4Editor-CollectAThon-7810.dll
+[2022.11.22-20.17.10:514][383]CompilerResultsLog:      Creating library D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-7810.suppressed.lib and object D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-7810.suppressed.exp
+[2022.11.22-20.17.10:514][383]CompilerResultsLog:   [6/6] CollectAThonEditor.target
+[2022.11.22-20.17.10:514][383]CompilerResultsLog: Total time in Parallel executor: 21.63 seconds
+[2022.11.22-20.17.10:514][383]CompilerResultsLog: Total execution time: 34.08 seconds
+[2022.11.22-20.17.10:514][383]LogMainFrame: MainFrame: Module compiling took 34.274 seconds
+[2022.11.22-20.17.10:875][383]LogClass: Could not find existing class CPP_WIPICharacter in package /Script/CollectAThon for HotReload, assuming new class
+[2022.11.22-20.17.10:875][383]LogClass: Function ChangePOVHideMesh is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function ChangePOVOnFinished is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function ChangePOVUpdate is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function GrappleMeshOnFinished is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function GrappleMeshUpdate is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function GrappleTickUpdate is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function SwapItemsMeshSwap is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function SwapItemsUpdate is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function VerticalVelocityUpdate is new.
+[2022.11.22-20.17.10:876][383]LogClass: Function YeetHeldYeetable is new.
+[2022.11.22-20.17.10:951][383]LogHotReload: Re-instancing CPP_WIPICharacter after hot-reload.
+[2022.11.22-20.17.11:075][383]LogContentBrowser: Native class hierarchy updated for 'CollectAThon' in 0.0010 seconds. Added 8 classes and 3 folders.
+[2022.11.22-20.17.11:083][383]Display: HotReload successful (24 functions remapped  0 scriptstructs remapped)
+[2022.11.22-20.17.11:329][383]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 3437 classes and 827 folders.
+[2022.11.22-20.17.11:359][383]Display: HotReload took 35.2s.
+[2022.11.22-20.17.28:491][796]Candidate modules for hot reload:
+[2022.11.22-20.17.28:492][796]  CollectAThon
+[2022.11.22-20.17.28:492][796]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=CollectAThon,5259 CollectAThonEditor Win64 Development -Project="D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/CollectAThon.uproject" "D:/Users/Caleb/Documents/GitHub/GPAndT/Gameplay-and-Testing-Project/CollectAThon/CollectAThon.uproject"  -IgnoreJunk]
+[2022.11.22-20.17.28:495][796]Warning: Starting HotReload took  0.0s.
+[2022.11.22-20.17.31:959][886]CompilerResultsLog: New page: Compilation - Nov 22, 2022, 10:17:31 AM
+[2022.11.22-20.17.31:959][886]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project).
+[2022.11.22-20.17.31:959][886]CompilerResultsLog: Building CollectAThonEditor...
+[2022.11.22-20.17.31:959][886]CompilerResultsLog: Using Visual Studio 2019 14.29.30145 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.11.22-20.17.31:959][886]CompilerResultsLog: Building 3 actions with 4 processes...
+[2022.11.22-20.17.31:959][886]CompilerResultsLog:   [1/3] UE4Editor-CollectAThon-5259.lib
+[2022.11.22-20.17.31:959][886]CompilerResultsLog:      Creating library D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-5259.lib and object D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-5259.exp
+[2022.11.22-20.17.31:959][886]CompilerResultsLog:   [2/3] UE4Editor-CollectAThon-5259.dll
+[2022.11.22-20.17.31:959][886]CompilerResultsLog:      Creating library D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-5259.suppressed.lib and object D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\UE4Editor-CollectAThon-5259.suppressed.exp
+[2022.11.22-20.17.31:959][886]CompilerResultsLog:   [3/3] CollectAThonEditor.target
+[2022.11.22-20.17.31:959][886]CompilerResultsLog: Total time in Parallel executor: 1.99 seconds
+[2022.11.22-20.17.31:959][886]CompilerResultsLog: Total execution time: 3.35 seconds
+[2022.11.22-20.17.31:959][886]LogMainFrame: MainFrame: Module compiling took 3.473 seconds
+[2022.11.22-20.17.32:014][886]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.11.22-20.17.32:015][886]LogWindows: Windows GetLastError: The operation completed successfully. (0)

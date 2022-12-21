@@ -1,0 +1,3 @@
+D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Development\CollectAThon\Definitions.CollectAThon.h
+D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Source\CollectAThon\Public\TutorialInterface.h
+D:\Users\Caleb\Documents\GitHub\GPAndT\Gameplay-and-Testing-Project\CollectAThon\Intermediate\Build\Win64\UE4Editor\Inc\CollectAThon\TutorialInterface.generated.h

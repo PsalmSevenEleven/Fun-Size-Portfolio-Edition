@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CollectAThon.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{008F7B6F-98CF-44AB-A8AF-27A8B4C93458}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CollectAThon.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CollectAThonEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7AD3D94B-F43E-4901-A668-351B300AF3B2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CollectAThon">
+      <UniqueIdentifier>{A5DD43FC-BDD2-4721-826B-D00957C17586}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CollectAThon\CollectAThon.Build.cs">
+      <Filter>Source\CollectAThon</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CollectAThon\CollectAThon.cpp">
+      <Filter>Source\CollectAThon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CollectAThon\CollectAThon.h">
+      <Filter>Source\CollectAThon</Filter>
+    </ClInclude>
+    <Filter Include="Source\CollectAThon\Private">
+      <UniqueIdentifier>{F7DBC221-7083-463B-9FFA-4375BDF0DCAA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\BallInterface.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\BP_FuncLib_VectorMath.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\CPP_FunSizeGameInstance.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\CPP_LevelHandler.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\CPP_WIPICharacter.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\GrappleableInterface.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\HUDInterface.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\PauseMenuInterface.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\PullableInterface.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\ThrowingInterface.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\TutorialInterface.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CollectAThon\Public">
+      <UniqueIdentifier>{BCD34277-17B4-47CB-9562-8AF08AA885A1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\BallInterface.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\BP_FuncLib_VectorMath.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\CPP_FunSizeGameInstance.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\CPP_LevelHandler.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\CPP_WIPICharacter.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\GrappleableInterface.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\HUDInterface.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\PauseMenuInterface.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\PullableInterface.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\ThrowingInterface.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\TutorialInterface.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
