@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Users\\Caleb\\Documents\\GitHub\\GPAndT\\Gameplay-and-Testing-Project\\CollectAThon\\Source\\CollectAThon\\CollectAThon.Build.cs",
+		"D:\\Users\\Caleb\\Documents\\GitHub\\GPAndT\\Gameplay-and-Testing-Project\\CollectAThon\\Source\\CollectAThon.Target.cs",
+		"D:\\Users\\Caleb\\Documents\\GitHub\\GPAndT\\Gameplay-and-Testing-Project\\CollectAThon\\Source\\CollectAThonEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

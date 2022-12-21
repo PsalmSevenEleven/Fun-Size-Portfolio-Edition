@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CollectAThon.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2D164D38-FD92-446E-BAAD-30C693528269}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CollectAThon.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CollectAThonEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2C70BDA4-0A0E-4B22-A648-AE01F8AB1D6D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CollectAThon">
+      <UniqueIdentifier>{216205E1-FB38-4CBD-88CE-7E49AC83D70B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CollectAThon\CollectAThon.Build.cs">
+      <Filter>Source\CollectAThon</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CollectAThon\CollectAThon.cpp">
+      <Filter>Source\CollectAThon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CollectAThon\CollectAThon.h">
+      <Filter>Source\CollectAThon</Filter>
+    </ClInclude>
+    <Filter Include="Source\CollectAThon\Private">
+      <UniqueIdentifier>{5FCA7D9E-700F-48A6-B864-9CAAB8F63A80}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CollectAThon\Private\BP_FuncLib_VectorMath.cpp">
+      <Filter>Source\CollectAThon\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CollectAThon\Public">
+      <UniqueIdentifier>{D7E9B881-E987-40B2-8AEF-1925FACD0EAA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CollectAThon\Public\BP_FuncLib_VectorMath.h">
+      <Filter>Source\CollectAThon\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CollectAThon",
+			"Path": "D:\\Users\\Caleb\\Documents\\GitHub\\GPAndT\\Gameplay-and-Testing-Project\\CollectAThon\\Source\\CollectAThon.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CollectAThonEditor",
+			"Path": "D:\\Users\\Caleb\\Documents\\GitHub\\GPAndT\\Gameplay-and-Testing-Project\\CollectAThon\\Source\\CollectAThonEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
